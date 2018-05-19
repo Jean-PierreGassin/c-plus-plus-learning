@@ -7,9 +7,13 @@
 //
 
 #include <iostream>
+#include "Person.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Person *person = new Person;
+    
+    person->setName();
+    std::cout << "Hello " + person->getName() + "! \n";
+    
     return 0;
 }

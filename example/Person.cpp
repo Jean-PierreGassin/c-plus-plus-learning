@@ -1,5 +1,5 @@
 //
-//  person.cpp
+//  Person.cpp
 //  example
 //
 //  Created by Jean-Pierre Gassin on 18/5/18.
@@ -7,18 +7,16 @@
 //
 
 #include <iostream>
-#include "person.hpp"
+#include "Person.hpp"
 
-using namespace std;
+void Person::setName() {
+    std::string name;
+    std::cout << "What is your name?\n";
+    std::getline(std::cin, name);
+    
+    this->name = name;
+}
 
-class Person {
-    private: string name;
-    
-    void setName(string name) {
-        this->name = name;
-    }
-    
-    string getName() {
-        return this->name;
-    }
-};
+string Person::getName() {
+    return this->name;
+}
