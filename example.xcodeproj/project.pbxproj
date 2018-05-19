@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1642598A20AEF7C100AE15E3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1642598920AEF7C100AE15E3 /* main.cpp */; };
 		1642599220AEF87600AE15E3 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1642599020AEF87600AE15E3 /* Person.cpp */; };
+		1661511320AFF45F0050F56A /* People.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1661511120AFF45F0050F56A /* People.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		1642598920AEF7C100AE15E3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1642599020AEF87600AE15E3 /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
 		1642599120AEF87600AE15E3 /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		1661511120AFF45F0050F56A /* People.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = People.cpp; sourceTree = "<group>"; };
+		1661511220AFF45F0050F56A /* People.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = People.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				1642598920AEF7C100AE15E3 /* main.cpp */,
 				1642599020AEF87600AE15E3 /* Person.cpp */,
+				1661511120AFF45F0050F56A /* People.cpp */,
+				1661511220AFF45F0050F56A /* People.hpp */,
 				1642599120AEF87600AE15E3 /* Person.hpp */,
 			);
 			path = example;
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1642599220AEF87600AE15E3 /* Person.cpp in Sources */,
+				1661511320AFF45F0050F56A /* People.cpp in Sources */,
 				1642598A20AEF7C100AE15E3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

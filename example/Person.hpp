@@ -11,14 +11,13 @@
 
 #include <stdio.h>
 
-using namespace std;
-
 class Person {
-    private: string name;
+    private:
+        std::string name;
     
     public:
         void setName();
-        string getName();
+        std::string getName();
 };
 
 #endif /* Person_hpp */

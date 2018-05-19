@@ -11,12 +11,13 @@
 
 void Person::setName() {
     std::string name;
-    std::cout << "What is your name?\n";
+    
+    std::cout << "What is the name of the person?" << std::endl;
     std::getline(std::cin, name);
     
     this->name = name;
 }
 
-string Person::getName() {
+std::string Person::getName() {
     return this->name;
 }
